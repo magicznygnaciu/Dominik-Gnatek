@@ -1,7 +1,7 @@
 /*******************************************************************************
     XOR.cpp
      
-    This function takes in two strings (value,key) and uses XOR encryption to
+ zamiana nr 2
     encrypt (and decrypt) the value using the key.  it returns the encrypted
     value as a C++ string.
      

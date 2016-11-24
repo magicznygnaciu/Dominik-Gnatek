@@ -1,4 +1,4 @@
-<pre> /***********************************************************
+zmiana dominik
  * A Template for building OpenGL applications using GLUT
  *
  * Author: Perspective @ cprogramming.com
