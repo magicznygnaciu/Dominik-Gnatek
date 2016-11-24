@@ -29,17 +29,6 @@ void menu(int op) {
   }
 }
  
-/* executed when a regular key is pressed */
-void keyboardDown(unsigned char key, int x, int y) {
- 
-  switch(key) {
-  case 'Q':
-  case 'q':
-  case  27:   // ESC
-    exit(0);
-  }
-}
- 
 /* executed when a regular key is released */
 void keyboardUp(unsigned char key, int x, int y) {
  

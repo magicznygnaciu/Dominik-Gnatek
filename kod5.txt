@@ -10,20 +10,7 @@
 /* Deal()    - Deals a single card off of   */
 /*             the top of the deck.         */
 /* Collect() - Resets the deck size to a    */
-/*             full deck.                   */
-/* Deck Size - Number of decks being used   */
-/* **************************************** */
-  
-#ifndef StdCardDeckH
-#define StdCardDeckH
-  
-#include <string>
-#include <sstream>
-#include <algorithm>
-  
-const char HEART   = 0x03;   // May Not Work on
-const char DIAMOND = 0x04;   // certain systems
-const char CLUB    = 0x05;   // These are DOS standard
+/*             full deck.    
 const char SPADE   = 0x06;   // ASCII characters
   
 struct Card {

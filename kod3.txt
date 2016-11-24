@@ -3,27 +3,7 @@
      
     This function is used to reverse an integer array.  For example, if the
     array is {1,2,3,4,5}, these functions will return an array like {5,4,3,2,1}.
-    The user needs to pass in a pointer to the array and the size of the array,
-    and the function will return a pointer to an array in the reverse order.
-     
-    John Shao
-********************************************************************************
-    This work is hereby released into the Public Domain. To view a copy of the
-    public domain dedication, visit
-    http://creativecommons.org/licenses/publicdomain/
- 
-    or send a letter to
- 
-    Creative Commons
-    559 Nathan Abbott Way
-    Stanford, California 94305
-    USA.
-*******************************************************************************/
- 
-int*ReverseArray(int*orig,unsigned short int b)
-{
-    unsigned short int a=0;
-    int swap;
+    The user needs to pass in a poin
      
     for(a;a<--b;a++) //increment a and decrement b until they meet eachother
     {
