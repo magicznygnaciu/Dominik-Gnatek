@@ -4,13 +4,7 @@
  zamiana nr 2
     encrypt (and decrypt) the value using the key.  it returns the encrypted
     value as a C++ string.
-     
-    John Shao
-    
-For more on XOR encryption: http://www.cprogramming.com/tutorial/xor.html 
-********************************************************************************
-    This work is hereby released into the Public Domain. To view a copy of the
-    public domain dedication, visit
+
     http://creativecommons.org/licenses/publicdomain/
  
     or send a letter to

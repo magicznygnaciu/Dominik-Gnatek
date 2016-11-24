@@ -12,14 +12,7 @@ zmiana dominik
  * This code is intended to be a quick starting point
  * when building GLUT applications.
  *
- ***********************************************************/
- 
-//#include <windows.h>
-#include <iostream>
-#include <GL/glut.h>
- 
- 
-/* process menu option 'op' */
+ ***********************************************************/* process menu option 'op' */
 void menu(int op) {
  
   switch(op) {

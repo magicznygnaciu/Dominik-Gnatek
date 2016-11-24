@@ -15,16 +15,6 @@ int main() {
     std::cout << "\n";
     firstDayInCurrentMonth = firstDayOfJanuary( year );
     skip(9);
-    std::cout << year << "\n";
-    for ( unsigned int currentMonth = 1 ; currentMonth <= 12 ; currentMonth++ ) {
-        printHeader( currentMonth );
-        printMonth( numOfDaysInMonth( currentMonth , year ) , firstDayInCurrentMonth );
-        std::cout << "\n\n\n";
-    }
-    std::cout << "Press Enter to Exit...";
-    std::cin.ignore();
-    std::cin.get();
-}
  
 bool isLeapYear( unsigned int& year ) { //if number is multiple of 4 and is either multiple of 400 or not multiple of 100, is leap year
     return ( year % 4 == 0 ) && ( year % 100 != 0 || year % 400 == 0 );

@@ -2,16 +2,7 @@
 #include <d3dx9.h>
 #include <time.h>
 #include <stdio.h>
-//your headers for other sources containing the function's definitions and prototypes go here.
- 
-//window event callback function
-LRESULT WINAPI WinProc( HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam )
-{
-    switch( msg )
-    {
-        case WM_DESTROY:
-            //release the Direct3D objects
-            if (d3ddev != NULL) d3ddev->Release();
+//your 
             if (d3d != NULL) d3d->Release();
  
  

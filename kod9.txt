@@ -8,16 +8,6 @@ using std::endl;
 class abc  //Class declaration statement, you can use struct, and union also.
 {
     public:
-    int x;  //Variable declaration within class.
-    abc():x(10){}  //Constructor to intialize data members.
-};
- 
-namespace def  //Namespace declaration statement.
-{
-    int x = 20;//Variable declaration within def space.
-}
- 
-int getx()  //Function return its local variable.
 {
     int x = 30;   //Variable declaration within function space.
     return x;

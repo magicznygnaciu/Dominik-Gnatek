@@ -10,22 +10,6 @@
     TL;DR: compile and enjoy dynamic custom linked list management
            analyze to learn about pointers, structs and linked lists
 */
- 
-/* LIBS */
- 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <float.h>
- 
-/* DEFS */
- 
-typedef float node_data; //stack list data type - set for integers
- 
-typedef struct _node Node; //short name for the node type
-struct _node //node structure format
-{
-    node_data data;
     Node *next;
 };
  
